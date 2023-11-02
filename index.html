@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Web App</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar_nav">
+            <div class="navbar_links">
+                <div class="logo">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M176,216a8,8,0,0,1-8,8H24a8,8,0,0,1,0-16H168A8,8,0,0,1,176,216ZM246.31,86.76,227.67,62.87l-.12-.15a39.82,39.82,0,0,0-51.28-9.12L124.7,84.38,70.76,64.54a8,8,0,0,0-5.59,0L58,67.27l-.32.13a16,16,0,0,0-4.53,26.47L75,115.06l-20.17,12.2-28.26-9.54a8,8,0,0,0-6.08.4l-3,1.47A16,16,0,0,0,13,145.8l36,35.27.12.12a39.78,39.78,0,0,0,27.28,10.87,40.18,40.18,0,0,0,20.26-5.52l147.41-88a8,8,0,0,0,2.21-11.78Z"></path></svg>
+                    </a>
+                </div>
+                <div class="navbar_menu">
+                    <a href="#">Showcase</a>
+                    <a href="#">Docs</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Analytics</a>
+                    <a href="#">Template</a>
+                    <a href="#">Enterprise</a>
+                </div>
+            </div>
+            <div class="navbar_button_mobile">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="#fff" viewBox="0 0 256 256"><path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path></svg>
+                </button>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="#fff" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>
+                </button>
+            </div>
+            <div class="navbar_button">
+                <button class="navbar_search" type="button">
+                    Search documentation...
+                    <kbd class="navbar_search_kbd">CtrlK</kbd>
+                </button>
+                <a href="#" style="color: #fff;border-color:#333;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="#fff" viewBox="0 0 256 256"><path d="M236.78,211.81A24.34,24.34,0,0,1,215.45,224H40.55a24.34,24.34,0,0,1-21.33-12.19,23.51,23.51,0,0,1,0-23.72L106.65,36.22a24.76,24.76,0,0,1,42.7,0L236.8,188.09A23.51,23.51,0,0,1,236.78,211.81Z"></path></svg>
+                    Deploy
+                </a>
+                <a href="#" style="color: #000;background:#fff">Learn</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="intro_header">
+                <svg aria-hidden="true" data-side="top-left" fill="none" height="75" viewBox="0 0 75 75" width="75"><path d="M74 37.5C74 30.281 71.8593 23.2241 67.8486 17.2217C63.838 11.2193 58.1375 6.541 51.4679 3.7784C44.7984 1.0158 37.4595 0.292977 30.3792 1.70134C23.2989 3.1097 16.7952 6.58599 11.6906 11.6906C6.58599 16.7952 3.1097 23.2989 1.70134 30.3792C0.292977 37.4595 1.0158 44.7984 3.7784 51.4679C6.541 58.1375 11.2193 63.838 17.2217 67.8486C23.2241 71.8593 30.281 74 37.5 74" opacity="100" stroke="#333" stroke-dasharray="2 2"></path><defs><radialGradient cx="0" cy="0" gradientTransform="translate(37.5 37.5) rotate(90) scale(36.5)" gradientUnits="userSpaceOnUse" id="paint0_angular_25_2122" r="1"><stop></stop><stop offset="0.5" stop-opacity="0.34"></stop><stop offset="1"></stop></radialGradient></defs></svg>
+                <svg aria-hidden="true" data-side="top-left" fill="none" height="75" viewBox="0 0 75 75" width="75"><path d="M74 37.5C74 30.281 71.8593 23.2241 67.8486 17.2217C63.838 11.2193 58.1375 6.541 51.4679 3.7784C44.7984 1.0158 37.4595 0.292977 30.3792 1.70134C23.2989 3.1097 16.7952 6.58599 11.6906 11.6906C6.58599 16.7952 3.1097 23.2989 1.70134 30.3792C0.292977 37.4595 1.0158 44.7984 3.7784 51.4679C6.541 58.1375 11.2193 63.838 17.2217 67.8486C23.2241 71.8593 30.281 74 37.5 74" opacity="100" stroke="#333" stroke-dasharray="2 2"></path><defs><radialGradient cx="0" cy="0" gradientTransform="translate(37.5 37.5) rotate(90) scale(36.5)" gradientUnits="userSpaceOnUse" id="paint0_angular_25_2122" r="1"><stop></stop><stop offset="0.5" stop-opacity="0.34"></stop><stop offset="1"></stop></radialGradient></defs></svg>
+            </div>
+            <div class="intro_title">
+                <h1>The React Framework for the Web</h1>
+            </div>
+            <div class="intro_subtitle">
+                <p>
+                    Used by some of the world's largest companies, Next.js enables you to create <span style="color: #fff;">full-stack Web applications</span> by extending the latest React features, and integrating powerful Rust-based JavaScript tooling for the fastest builds.
+                </p>
+            </div>
+            <div class="intro_cta">
+                <div class="intro_cta_btn">
+                    <button>Get Started</button>
+                    <button style="background: #333;color: #fff;">Learn Next.js</button>
+                    <p>~ npx create-next-app@latest</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="features">
+        <div class="container">
+            <div class="features_header">
+                <h2>What's in Next.js? </h2>
+                <span>All the tools you need to make the Web. Faster.</span>
+            </div>
+            <div class="features_list">
+                <div class="features_list_one">
+                    <div class="features_item_top">
+                        <img src="assets/windows-dark.avif" alt=""/>
+                        <h3>Built-in Optimizations</h3>
+                        <p>Automatic image, Font, and Script Optimizations for improved UX and Core Web Vitals.</p>
+                    </div>
+                    <div class="features_item_top">
+                        <img src="assets/spheres-dark.avif" alt="" />
+                        <h3>Dynamic HTML Streaming</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item_top">
+                        <img src="assets/windows-dark.avif" alt=""/>
+                        <h3>React Server Components</h3>
+                        <p>Add components without sending additional client-side JavaScript. Built on the latest React features.</p>
+                    </div>
+                </div>
+                <div class="features_list_two">
+                    <div class="features_item">
+                        <h3>Data Fetching</h3>
+                        <p>Build API endpoints to securely connect with third party services and consume from your frontend.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>CSS Support</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>Client and Server Rendering</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>Node.js & Edge Runtime</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>Route Handlers</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>Advanced Routing & Nested Layouts</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                    <div class="features_item">
+                        <h3>Middleware</h3>
+                        <p>Instantly stream UI from the server, integrated with the App Router and React Suspense.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="technology">
+        <div class="container">
+            <div class="technology_header">
+                <h2>Built on a foundation of fast, production-grade tooling</h2>
+            </div>
+            <div class="technology_list">
+                <div class="technology_item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#fff" viewBox="0 0 256 256">
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#2193b0;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#6dd5ed;stop-opacity:1" />
+                              </linearGradient>
+                            <path fill="url(#grad1)" d="M196.12,128c24.65-34.61,37.22-70.38,19.74-87.86S162.61,35.23,128,59.88C93.39,35.23,57.62,22.66,40.14,40.14S35.23,93.39,59.88,128c-24.65,34.61-37.22,70.38-19.74,87.86h0c5.63,5.63,13.15,8.14,21.91,8.14,18.48,0,42.48-11.17,66-27.88C151.47,212.83,175.47,224,194,224c8.76,0,16.29-2.52,21.91-8.14h0C233.34,198.38,220.77,162.61,196.12,128Zm8.43-76.55c7.64,7.64,2.48,32.4-18.52,63.28a300.33,300.33,0,0,0-21.19-23.57A300.33,300.33,0,0,0,141.27,70C172.15,49,196.91,43.8,204.55,51.45ZM176.29,128a289.14,289.14,0,0,1-22.76,25.53A289.14,289.14,0,0,1,128,176.29a289.14,289.14,0,0,1-25.53-22.76A289.14,289.14,0,0,1,79.71,128,298.62,298.62,0,0,1,128,79.71a289.14,289.14,0,0,1,25.53,22.76A289.14,289.14,0,0,1,176.29,128ZM51.45,51.45c2.2-2.21,5.83-3.35,10.62-3.35C73.89,48.1,92.76,55,114.72,70A304,304,0,0,0,91.16,91.16,300.33,300.33,0,0,0,70,114.73C49,83.85,43.81,59.09,51.45,51.45Zm0,153.1C43.81,196.91,49,172.15,70,141.27a300.33,300.33,0,0,0,21.19,23.57A304.18,304.18,0,0,0,114.73,186C83.85,207,59.09,212.2,51.45,204.55Zm153.1,0c-7.64,7.65-32.4,2.48-63.28-18.52a304.18,304.18,0,0,0,23.57-21.19A300.33,300.33,0,0,0,186,141.27C207,172.15,212.19,196.91,204.55,204.55ZM140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128Z"></path>
+                        </svg>
+                        <h3>React</h3>
+                        <p>The library for web and native user interfaces. Next.js is built on the latest React features, including Server Components and Actions.</p>
+                    </div>
+                </div>
+                <div class="technology_item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#fff" viewBox="0 0 256 256">                            
+                            <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#b92b27;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#1565c0;stop-opacity:1" />
+                              </linearGradient>
+                            <path fill="url(#grad2)" d="M221.66,90.34h0l-56-56A8,8,0,0,0,160,32H40a8,8,0,0,0-8,8V160a8,8,0,0,0,2.3,5.61l56,56h0A8,8,0,0,0,96,224H216a8,8,0,0,0,8-8V96A8,8,0,0,0,221.66,90.34ZM168,59.31,196.69,88H168ZM88,196.69,59.31,168H88ZM88,152H48V59.31l40,40ZM59.31,48H152V88H99.31ZM152,104v48H104V104ZM104,208V168h52.69l40,40Zm104-11.31-40-40V104h40Z"></path>
+                        </svg>
+                        <h3>Turbopack</h3>
+                        <p>An incremental bundler optimized for JavaScript and TypeScript, written in Rust.</p>
+                    </div>
+                </div>
+                <div class="technology_item">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#fff" viewBox="0 0 256 256">                            
+                            <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:#fdc830;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#f37335;stop-opacity:1" />
+                              </linearGradient>
+                            <path fill="url(#grad3)" d="M207.06,80.67A111.24,111.24,0,0,0,128,48h-.4C66.07,48.21,16,99,16,161.13V184a16,16,0,0,0,16,16H224a16,16,0,0,0,16-16V160A111.25,111.25,0,0,0,207.06,80.67ZM224,184H119.71l54.76-75.3a8,8,0,0,0-12.94-9.42L99.92,184H32V161.13c0-3.08.15-6.12.43-9.13H56a8,8,0,0,0,0-16H35.27c10.32-38.86,44-68.24,84.73-71.66V88a8,8,0,0,0,16,0V64.33A96.14,96.14,0,0,1,221,136H200a8,8,0,0,0,0,16h23.67c.21,2.65.33,5.31.33,8Z"></path></svg>
+                        <h3>Speedy Web Compiler</h3>
+                        <p>An extensible Rust  based platform for the next generation of fast developer tools, and can be used for both compilation and minification.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta_deploy">
+        <div class="container">
+            <div class="cta_deploy_header">
+                <h2>Get started in seconds </h2>
+                <span>Deploy Next.js to Vercel</span>
+            </div>
+            <div class="cta_deploy_content">
+                <div class="cta_deploy_content_showcase">
+                    <div class="showcase_card">
+                        <img src="assets/template-next-commerce.avif" width="300px" alt="">
+                        <div class="showcase_card_info">
+                            <h5>Next.js Commerce</h5>
+                            <p>An all-in-one starter kit for high-performance e-commerce sites.</p>
+                        </div>
+                    </div>
+                    <div class="showcase_card">
+                        <img src="assets/template-next-gallery.avif" width="300px" alt="">
+                        <div class="showcase_card_info">
+                            <h5>Image Gallery Starter</h5>
+                            <p>An all-in-one starter kit for high-performance e-commerce sites.</p>
+                        </div>
+                    </div>
+                    <div class="showcase_card">
+                        <img src="assets/template-next-boilerplate.avif" width="300px" alt="">
+                        <div class="showcase_card_info">
+                            <h5>Next.js Boilerplate</h5>
+                            <p>A Next.js app and a Serverless Function API.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta_deploy_content_info">
+                    <div class="cta_deploy_content_tag">
+                        <ul>
+                            <li>Starter</li>
+                            <li>Ecommerce</li>
+                            <li>Blog</li>
+                            <li>AI</li>
+                            <li>Edge Functions</li>
+                            <li>Starter</li>
+                            <li>Ecommerce</li>
+                            <li>Blog</li>
+                            <li>AI</li>
+                            <li>Edge Functions</li>
+                            <li>Ecommerce</li>
+                            <li>Blog</li>
+                            <li>AI</li>
+                            <li>Blog</li>
+                            <li>AI</li>
+                            <li>Edge Functions</li>
+                            <li>Ecommerce</li>
+                            <li>Blog</li>
+                            <li>AI</li>
+                            <li>Edge Functions</li>
+                            <li>Starter</li>
+                            <li>Ecommerce</li>
+                        </ul>
+                    </div>
+                    <div class="cta_deploy_content_cta">
+                        <p>Vercel is a frontend cloud from the creators of Next.js, making it easy to get started with Next.js quickly.</p>
+                        <p>Jumpstart your Next.js development with one of our pre-built solutions.</p>
+                        <button>
+                            Deploy a Template on Vercel 
+                            <span>
+                                <svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color: currentcolor; width: 20px; height: 20px;"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="templates">
+        <div class="container">
+            <div class="templates_header">
+                <h2>The framework of choice when it matters</h2>
+            </div>
+            <div class="templates_showcase">
+                <div class="templates_showcase_list">
+                    <img src="/assets/preview-audible.avif" width="300" alt="">
+                    <img src="/assets/preview-twitch.avif" width="250" alt="">
+                    <img src="/assets/preview-notion.avif" width="300" alt="">
+                    <img src="/assets/preview-nike.avif" width="250" alt="">
+                    <img src="/assets/preview-sonos.avif" width="100px" alt="">
+                    <img src="assets/preview-today.avif" width="200px" alt="">
+                    <img src="/assets/preview-ph.avif" width="300px" alt="">
+                    <img src="/assets/preview-wapo.avif" width="150px" alt="">
+                </div>
+                <div class="templates_showcase_cta">
+                    <h3>Peerless <span>performance</span>, <span>efficiency</span>, and <span>developer experience</span>. Next.js is trusted by some of the biggest names on the Web.</h3>
+                    <button>View the Next.js Showcase</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="customers_comment">
+        <div class="container">
+            <div class="comments_list">
+                <ul>
+                    <li>
+                        <h4>“With Next.js at the helm of our headless tech stack, our developers can create features with velocity and speed, ultimately enabling users to create whatever, whenever they want to.”</h4>
+                        <div class="comments_list_author">
+                            <svg aria-label="Loom's logo" fill="#fff" height="25" viewBox="0 0 133 41" width="81" xmlns="http://www.w3.org/2000/svg"><path d="M50.9458 34.7106V5.38147H56.3305V34.7106H50.9458Z" fill="#FFF"></path><path d="M102.592 14.7794H107.735V17.2109C108.827 15.2666 111.379 14.2125 113.565 14.2125C116.279 14.2125 118.465 15.3879 119.477 17.5342C121.055 15.1027 123.162 14.2125 125.794 14.2125C129.478 14.2125 133 16.4408 133 21.7874V34.7104H127.777V22.8821C127.777 20.7346 126.724 19.1148 124.254 19.1148C121.945 19.1148 120.568 20.8974 120.568 23.0449V34.7117H115.225V22.8821C115.225 20.7346 114.132 19.1148 111.702 19.1148C109.353 19.1148 107.976 20.857 107.976 23.0449V34.7117H102.592V14.7794Z" fill="var(--geist-foreground)"></path><path d="M68.4996 35.288C62.4334 35.288 58.0406 30.7886 58.0406 24.7454C58.0406 18.7986 62.4192 14.1923 68.4996 14.1923C74.6095 14.1923 78.9586 18.8414 78.9586 24.7454C78.9586 30.7446 74.5632 35.288 68.4996 35.288ZM68.4996 19.0707C65.3708 19.0707 62.8258 21.6163 62.8258 24.7467C62.8258 27.877 65.3708 30.4226 68.4996 30.4226C71.6283 30.4226 74.172 27.877 74.172 24.7467C74.172 21.6163 71.6283 19.0707 68.4996 19.0707Z" fill="var(--geist-foreground)"></path><path d="M90.4595 35.288C84.3933 35.288 80.0005 30.7886 80.0005 24.7454C80.0005 18.7986 84.3791 14.1923 90.4595 14.1923C96.5694 14.1923 100.918 18.8414 100.918 24.7454C100.918 30.7446 96.5208 35.288 90.4595 35.288ZM90.4595 19.003C87.295 19.003 84.7204 21.5795 84.7204 24.7442C84.7204 27.9091 87.295 30.4856 90.4595 30.4856C93.6238 30.4856 96.1986 27.9091 96.1986 24.7442C96.1973 21.5795 93.6227 19.003 90.4595 19.003Z" fill="var(--geist-foreground)"></path><path d="M40.0926 17.817H28.3689L38.5222 11.955L36.2925 8.09189L26.1392 13.9538L31.9999 3.80141L28.1368 1.57037L22.2761 11.7228V0H17.8164V11.7239L11.9535 1.57037L8.09166 3.80029L13.9534 13.9527L3.80018 8.09189L1.57032 11.9539L11.7236 17.8158H0V22.2757H11.7225L1.57032 28.1376L3.80018 32.0007L13.9523 26.1399L8.09054 36.2923L11.9535 38.5222L17.8153 28.3687V40.0926H22.275V28.3698L28.1357 38.5222L31.9986 36.2923L26.1369 26.1388L36.2902 32.0007L38.5201 28.1376L28.3679 22.2767H40.0903V17.817H40.0926ZM20.0463 26.1117C16.6836 26.1117 13.9579 23.3862 13.9579 20.0233C13.9579 16.6605 16.6836 13.9348 20.0463 13.9348C23.409 13.9348 26.1346 16.6605 26.1346 20.0233C26.1346 23.3862 23.409 26.1117 20.0463 26.1117Z" fill="#fff"></path></svg>
+                            <small>Tatiana Mac, Senior Software Engineer</small>
+                        </div>
+                    </li>
+                    <li>
+                        <p>“My favorite UX feedback from customers is: "How is the app so fast?" Because we’ve built on Next.js and Vercel since day one, our pages load in an instant, which is important when it comes to mission-critical software.”</p>
+                        <div class="comments_list_author">
+                            <svg aria-label="Indent's logo" fill="#fff" height="20" viewBox="0 0 998 195" ><path d="M271.524 10.92V192.4H235.124V10.92H271.524ZM374.307 46.28C391.467 46.28 405.334 51.74 415.907 62.66C426.48 73.407 431.767 88.487 431.767 107.9V192.4H395.367V112.84C395.367 101.4 392.507 92.647 386.787 86.58C381.067 80.34 373.267 77.22 363.387 77.22C353.334 77.22 345.36 80.34 339.467 86.58C333.747 92.647 330.887 101.4 330.887 112.84V192.4H294.487V48.36H330.887V66.3C335.74 60.06 341.894 55.2067 349.347 51.74C356.974 48.1 365.294 46.28 374.307 46.28ZM444.021 119.86C444.021 105.3 446.881 92.387 452.601 81.12C458.495 69.8533 466.468 61.1867 476.521 55.12C486.575 49.0533 497.755 46.02 510.061 46.02C519.421 46.02 528.348 48.1 536.841 52.26C545.335 56.2467 552.095 61.62 557.121 68.38V0H594.041V192.4H557.121V171.08C552.615 178.187 546.288 183.907 538.141 188.24C529.995 192.573 520.548 194.74 509.801 194.74C497.668 194.74 486.575 191.62 476.521 185.38C466.468 179.14 458.495 170.387 452.601 159.12C446.881 147.68 444.021 134.593 444.021 119.86ZM557.381 120.38C557.381 111.54 555.648 104 552.181 97.76C548.715 91.347 544.035 86.493 538.141 83.2C532.248 79.733 525.921 78 519.161 78C512.401 78 506.161 79.647 500.441 82.94C494.721 86.233 490.041 91.087 486.401 97.5C482.935 103.74 481.201 111.193 481.201 119.86C481.201 128.527 482.935 136.153 486.401 142.74C490.041 149.153 494.721 154.093 500.441 157.56C506.335 161.027 512.575 162.76 519.161 162.76C525.921 162.76 532.248 161.113 538.141 157.82C544.035 154.353 548.715 149.5 552.181 143.26C555.648 136.847 557.381 129.22 557.381 120.38ZM750.492 117.26C750.492 122.46 750.146 127.14 749.452 131.3H644.152C645.019 141.7 648.659 149.847 655.072 155.74C661.486 161.633 669.372 164.58 678.732 164.58C692.252 164.58 701.872 158.773 707.592 147.16H746.852C742.692 161.027 734.719 172.467 722.932 181.48C711.146 190.32 696.672 194.74 679.512 194.74C665.646 194.74 653.166 191.707 642.072 185.64C631.152 179.4 622.572 170.647 616.332 159.38C610.266 148.113 607.232 135.113 607.232 120.38C607.232 105.473 610.266 92.387 616.332 81.12C622.399 69.8533 630.892 61.1867 641.812 55.12C652.732 49.0533 665.299 46.02 679.512 46.02C693.206 46.02 705.426 48.9667 716.172 54.86C727.092 60.7533 735.499 69.16 741.392 80.08C747.459 90.827 750.492 103.22 750.492 117.26ZM712.792 106.86C712.619 97.5 709.239 90.047 702.652 84.5C696.066 78.78 688.006 75.92 678.472 75.92C669.459 75.92 661.832 78.693 655.592 84.24C649.526 89.613 645.799 97.153 644.412 106.86H712.792ZM843.881 46.28C861.041 46.28 874.908 51.74 885.481 62.66C896.054 73.407 901.341 88.487 901.341 107.9V192.4H864.941V112.84C864.941 101.4 862.081 92.647 856.361 86.58C850.641 80.34 842.841 77.22 832.961 77.22C822.908 77.22 814.934 80.34 809.041 86.58C803.321 92.647 800.461 101.4 800.461 112.84V192.4H764.061V48.36H800.461V66.3C805.314 60.06 811.468 55.2067 818.921 51.74C826.548 48.1 834.868 46.28 843.881 46.28ZM965.336 78.26V147.94C965.336 152.793 966.462 156.347 968.716 158.6C971.142 160.68 975.129 161.72 980.676 161.72H997.576V192.4H974.696C944.016 192.4 928.676 177.493 928.676 147.68V78.26H911.516V48.36H928.676V12.74H965.336V48.36H997.576V78.26H965.336Z" fill="var(--geist-foreground)"></path><mask height="156" id="mask0_3077_14632" maskUnits="userSpaceOnUse" width="140" x="0" y="23" style="mask-type: alpha;"><path d="M0 100.914V44.9155C0.00387451 41.1367 1.00188 37.4255 2.89378 34.1544C4.78569 30.8833 7.50492 28.1676 10.7784 26.2799C14.0519 24.3922 17.7644 23.3989 21.5432 23.3999C25.322 23.4009 29.034 24.396 32.3066 26.2854L80.7664 54.2844L129.269 82.2839C132.533 84.1769 135.242 86.8939 137.126 90.1639C139.009 93.4339 140 97.1399 140 100.914C140 104.687 139.009 108.394 137.126 111.663C135.242 114.933 132.533 117.651 129.269 119.544L80.7664 147.543L32.2635 175.542C28.9921 177.421 25.2846 178.407 21.5121 178.403C17.7397 178.398 14.0345 177.403 10.7676 175.516C7.50065 173.63 4.78651 170.918 2.89682 167.653C1.00715 164.388 0.00820175 160.684 0 156.912V100.914Z" fill="var(--geist-foreground)"></path></mask><g mask="url(#mask0_3077_14632)"><path d="M0 100.914V44.9155C0.00387451 41.1367 1.00188 37.4255 2.89378 34.1544C4.78569 30.8833 7.50493 28.1676 10.7784 26.2799C14.0519 24.3922 17.7644 23.3989 21.5432 23.3999C25.322 23.4009 29.034 24.396 32.3066 26.2854L80.7664 54.2844L129.269 82.2839C132.533 84.1769 135.242 86.8939 137.126 90.1639C139.009 93.4339 140 97.1399 140 100.914C140 104.687 139.009 108.394 137.126 111.663C135.242 114.933 132.533 117.651 129.269 119.544L80.7664 147.543L32.2635 175.542C28.9921 177.421 25.2846 178.407 21.5121 178.403C17.7397 178.398 14.0345 177.403 10.7676 175.516C7.50065 173.63 4.78651 170.918 2.89682 167.653C1.00714 164.388 0.00821228 160.684 0 156.912V100.914Z" fill="#8E8E8E"></path><path d="M192.355 19.3999H46.3555V178.4H192.355V19.3999Z" fill="var(--geist-foreground)" fill-opacity="0.4"></path><path d="M233.355 28.3999H87.3555V187.4H233.355V28.3999Z" fill="var(--geist-foreground)" fill-opacity="0.4"></path></g></svg>
+                            <small>Fouad Matin, CEO</small>
+                        </div>
+                    </li>
+                    <li>
+                        <p>“Next.js has been a game-changer for our agency work and team collaboration. Its powerful features have allowed us to build high-performance websites quickly and efficiently like never before.”</p>
+                        <div class="comments_list_author">
+                            <svg aria-label="Wunderman Thompson's logo" fill="#fff" height="36" viewBox="0 0 1000 348" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_3077_14635)"><path d="M91.631 34.1735H57.4575V0H34.217V34.1735H0V57.414H34.217V91.5875H57.4575V57.414H91.631V34.1735Z" fill="#A4A4A4"></path><path d="M683.593 123.273C683.568 105.808 669.416 91.6548 651.95 91.6309H617.202V195.969H628.849V154.907H651.95C652.846 154.907 653.733 154.864 654.629 154.777L673.468 195.969H686.271L665.91 151.672C676.693 146.304 683.534 135.319 683.593 123.273ZM651.95 143.313H628.849V103.182H651.95C663.039 103.201 672.023 112.185 672.042 123.273C672.004 134.345 663.022 143.303 651.95 143.313ZM271.744 164.066C271.744 179.574 261.255 185.793 248.591 185.793C235.883 185.793 225.437 179.574 225.437 164.066V91.5874H213.843V164.162C213.843 184.645 228.012 197.352 248.591 197.352C269.213 197.352 283.347 184.645 283.347 164.162V91.5874H271.753L271.744 164.066ZM162.866 172.024L147.445 91.6396H133.354L117.942 172.024L103.451 91.6396H91.631L111.671 195.978H123.943L140.382 115.193L156.829 195.978H169.093L189.133 91.6396H177.313L162.866 172.024ZM559.171 241.746H524.51V346.084H536.113V305.109H559.171C576.639 305.099 590.799 290.944 590.813 273.475C590.859 265.061 587.544 256.976 581.602 251.018C575.66 245.06 567.585 241.722 559.171 241.746ZM559.171 293.471H536.113V253.392H559.171C564.501 253.388 569.614 255.503 573.383 259.272C577.152 263.04 579.267 268.154 579.263 273.484C579.224 284.547 570.234 293.49 559.171 293.471ZM853.164 91.5874L819.93 195.935H832.02L839.761 171.894H879.31L886.955 195.935H899.219L865.785 91.5874H853.164ZM843.397 160.335L859.566 110.079L875.561 160.335H843.397ZM753.27 240.328C734.595 240.357 719.478 255.513 719.497 274.188V313.65C719.478 332.325 734.595 347.482 753.27 347.511C771.963 347.486 787.111 332.343 787.14 313.65V274.188C787.115 255.494 771.964 240.347 753.27 240.328ZM775.493 313.65C775.504 319.547 773.167 325.207 768.997 329.377C764.827 333.547 759.167 335.884 753.27 335.873C747.373 335.884 741.714 333.547 737.544 329.377C733.373 325.207 731.036 319.547 731.048 313.65V274.188C731.048 261.838 741.006 251.887 753.27 251.887C765.534 251.887 775.493 261.846 775.493 274.188V313.65ZM351.329 240.328C332.651 240.366 317.527 255.511 317.512 274.188V313.65C317.536 332.324 332.656 347.463 351.329 347.511C370.02 347.486 385.165 332.341 385.189 313.65V274.188C385.165 255.498 370.02 240.352 351.329 240.328ZM373.595 313.65C373.595 325.914 363.636 335.873 351.329 335.873C339.022 335.873 329.063 326.001 329.063 313.65V274.188C329.051 268.277 331.392 262.602 335.57 258.418C339.747 254.235 345.417 251.885 351.329 251.887C363.593 251.887 373.595 261.846 373.595 274.188V313.65ZM374.613 172.024L327.375 91.6396H316.442V195.969H328.036V115.532L375.274 195.926H386.207V91.5874H374.613V172.024ZM988.258 91.6309V172.024L941.151 91.6396H930.131V195.969H941.681V115.532L988.971 195.926H1000V91.5874L988.258 91.6309ZM882.858 322.174L835.569 241.746H824.636V346.084H836.282V265.656L883.476 346.084H894.409V241.746H882.858V322.174ZM487.98 162.109V125.457C487.97 106.784 472.835 91.6492 454.163 91.6396H419.459V195.969H454.163C472.832 195.912 487.946 180.779 487.98 162.109ZM431.053 103.182H454.111C466.41 103.177 476.382 113.148 476.377 125.448V162.109C476.377 174.373 466.47 184.375 454.111 184.375H431.053V103.182ZM586.63 184.375H534.321V149.445H580.933V137.851H534.321V103.19H586.63V91.5961H522.736V195.935H586.638V184.375H586.63ZM753.27 143.139L727.316 91.6396H715.226V195.969H726.786V115.532L749.53 161.439H756.993L779.746 115.532V195.926H791.48V91.5874H779.39L753.27 143.139ZM97.3193 253.392H134.607V346.084H146.201V253.392H183.436V241.746H97.3193V253.392ZM271.336 288.131H225.829V241.746H214.235V346.084H225.829V299.69H271.292V346.084H282.938V241.746H271.292V288.131H271.336ZM659.413 288.227L642.8 281.651C631.597 276.937 630.084 271.692 630.084 267.074C630.084 262.812 631.693 259.254 634.798 256.671C638.529 253.575 644.313 251.783 650.889 251.783C657.638 251.783 663.335 253.653 667.067 256.845C670.52 259.872 672.303 264.142 672.303 269.561V271.431H683.949V269.561C683.949 251.435 670.441 240.232 650.889 240.232C631.423 240.232 618.455 251.261 618.455 266.978C618.455 280.929 628.318 288.575 640.399 293.202L655.151 299.064C669.459 304.587 673.642 308.666 673.642 317.208C673.642 322.8 671.677 327.245 667.945 330.446C663.953 333.899 657.638 335.864 650.532 335.864C643.07 335.864 636.755 334.081 632.667 330.707C629.023 327.68 627.153 323.418 627.153 318.182V315.598H615.506V318.182C615.506 336.221 629.823 347.502 650.524 347.502C671.137 347.502 685.184 335.595 685.184 317.208C685.193 299.421 671.503 293.028 659.413 288.227ZM453.71 293.202L427.669 241.746H415.623V346.084H427.217V265.656L450.014 311.597H457.442L480.239 265.656V346.084H491.833V241.746H479.804L453.71 293.202Z" fill="var(--geist-foreground)"></path></g><defs><clipPath id="clip0_3077_14635"><rect fill="white" height="347.511" width="1000"></rect></clipPath></defs></svg>
+                            <small>Daniel Lopes, Frontend Developer</small>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer_main">
+                <div class="footer_about_menu">
+                    <div class="footer_about">
+                        <div class="footer_about_logo">
+                            <a href="#">
+                                <svg fill="none" height="20" viewBox="0 0 283 64"><path d="M141.04 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.46 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM248.72 16c-11.04 0-19 7.2-19 18s8.96 18 20 18c6.67 0 12.55-2.64 16.19-7.09l-7.65-4.42c-2.02 2.21-5.09 3.5-8.54 3.5-4.79 0-8.86-2.5-10.37-6.5h28.02c.22-1.12.35-2.28.35-3.5 0-10.79-7.96-17.99-19-17.99zm-9.45 14.5c1.25-3.99 4.67-6.5 9.45-6.5 4.79 0 8.21 2.51 9.45 6.5h-18.9zM200.24 34c0 6 3.92 10 10 10 4.12 0 7.21-1.87 8.8-4.92l7.68 4.43c-3.18 5.3-9.14 8.49-16.48 8.49-11.05 0-19-7.2-19-18s7.96-18 19-18c7.34 0 13.29 3.19 16.48 8.49l-7.68 4.43c-1.59-3.05-4.68-4.92-8.8-4.92-6.07 0-10 4-10 10zm82.48-29v46h-9V5h9zM36.95 0L73.9 64H0L36.95 0zm92.38 5l-27.71 48L73.91 5H84.3l17.32 30 17.32-30h10.39zm58.91 12v9.69c-1-.29-2.06-.49-3.2-.49-5.81 0-10 4-10 10V51h-9V17h9v9.2c0-5.08 5.91-9.2 13.2-9.2z" fill="#fff"></path></svg>
+                            </a>
+                        </div>
+                        <div class="footer_socmed_list_mob">
+                            <a href="#"><svg fill="none" height="19" viewBox="0 0 17 16" width="19" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(githublogo)"><path clip-rule="evenodd" d="M8.18391.249268C3.82241.249268.253906 3.81777.253906 8.17927c0 3.46933 2.279874 6.44313 5.451874 7.53353.3965.0991.49563-.1983.49563-.3965v-1.3878c-2.18075.4956-2.67638-.9912-2.67638-.9912-.3965-.8922-.89212-1.1895-.89212-1.1895-.69388-.4957.09912-.4957.09912-.4957.793.0992 1.1895.793 1.1895.793.69388 1.2887 1.88338.8922 2.27988.6939.09912-.4956.29737-.8921.49562-1.0904-1.78425-.1982-3.5685-.8921-3.5685-3.96496 0-.89212.29738-1.586.793-2.08162-.09912-.19825-.3965-.99125.09913-2.08163 0 0 .69387-.19825 2.18075.793.59475-.19825 1.28862-.29737 1.9825-.29737.69387 0 1.38775.09912 1.98249.29737 1.4869-.99125 2.1808-.793 2.1808-.793.3965 1.09038.1982 1.88338.0991 2.08163.4956.59475.793 1.28862.793 2.08162 0 3.07286-1.8834 3.66766-3.66764 3.86586.29737.3965.59474.8921.59474 1.586v2.1808c0 .1982.0991.4956.5948.3965 3.172-1.0904 5.4518-4.0642 5.4518-7.53353-.0991-4.3615-3.6676-7.930002-8.02909-7.930002z" fill="currentColor" fill-rule="evenodd"></path></g><defs><clipPath id="githublogo"><path d="M0 0h15.86v15.86H0z" fill="transparent" transform="translate(.253906 .0493164)"></path></clipPath></defs></svg></a>
+                            <a href="#"><svg aria-label="twitter" fill="currentColor" height="16" viewBox="0 0 18 15"><path d="M18 1.684l-1.687 1.684v.28c0 .307-.05.602-.123.886-.04 2.316-.777 5.387-3.816 7.81C6.404 17.115 0 12.907 0 12.907c5.063 0 5.063-1.684 5.063-1.684-1.126 0-3.376-2.243-3.376-2.243.563.56 1.689 0 1.689 0C.56 7.295.56 5.61.56 5.61c.563.561 1.689 0 1.689 0C-.563 3.368 1.124.561 1.124.561 1.687 3.368 9 4.49 9 4.49l.093-.046A6.637 6.637 0 0 1 9 3.368C9 1.353 10.636 0 12.656 0c1.112 0 2.094.506 2.765 1.286l.329-.163L17.437 0l-1.122 2.245L18 1.684z" fill-rule="nonzero"></path></svg></a>
+                        </div>
+                    </div>
+                    <div class="footer_menu">
+                        <div class="footer_menu_grid">
+                            <div class="footer_menu_grid_resource">
+                                <h4>Resource</h4>
+                                <a href="#">Docs</a>
+                                <a href="#">Learn</a>
+                                <a href="#">Showcase</a>
+                                <a href="#">Blog</a>
+                                <a href="#">Analytics</a>
+                                <a href="#">Next.js Conf</a>
+                                <a href="#">Previews</a>
+                            </div>
+                            <div class="footer_menu_grid_more">
+                                <h4>More</h4>
+                                <a href="#">Commerce</a>
+                                <a href="#">Contact Sales</a>
+                                <a href="#">Github</a>
+                                <a href="#">Release</a>
+                                <a href="#">Telemetry</a>
+                            </div>
+                            <div class="footer_menu_grid_about">
+                                <h4>About Vercel</h4>
+                                <a href="#">Next.js + Vercel</a>
+                                <a href="#">Open Source Software</a>
+                                <a href="#">Github</a>
+                                <a href="#">Twitter</a>
+                            </div>
+                            <div class="footer_menu_grid_legal">
+                                <h4>Legal</h4>
+                                <a href="#">Privacy Policy</a>
+                                <a href="#">Cookie Preferences</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_subscribe">
+                    <div class="footer_subscribe_box">
+                        <h4>Subscribe to our newsletter</h4>
+                        <p>Stay updated on new releases and features, guides, and case studies.</p>
+                        <div class="subscribe_action">
+                            <input type="text" placeholder="you@domain.com">
+                            <button type="submit">Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_socmed_darkmode">
+                <div class="footer_socmed">
+                    <p>&copy; 2023 Vercel, Inc.</p>
+                    <div class="footer_socmed_list_desk">
+                        <a href="#"><svg fill="none" height="19" viewBox="0 0 17 16" width="19" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(githublogo)"><path clip-rule="evenodd" d="M8.18391.249268C3.82241.249268.253906 3.81777.253906 8.17927c0 3.46933 2.279874 6.44313 5.451874 7.53353.3965.0991.49563-.1983.49563-.3965v-1.3878c-2.18075.4956-2.67638-.9912-2.67638-.9912-.3965-.8922-.89212-1.1895-.89212-1.1895-.69388-.4957.09912-.4957.09912-.4957.793.0992 1.1895.793 1.1895.793.69388 1.2887 1.88338.8922 2.27988.6939.09912-.4956.29737-.8921.49562-1.0904-1.78425-.1982-3.5685-.8921-3.5685-3.96496 0-.89212.29738-1.586.793-2.08162-.09912-.19825-.3965-.99125.09913-2.08163 0 0 .69387-.19825 2.18075.793.59475-.19825 1.28862-.29737 1.9825-.29737.69387 0 1.38775.09912 1.98249.29737 1.4869-.99125 2.1808-.793 2.1808-.793.3965 1.09038.1982 1.88338.0991 2.08163.4956.59475.793 1.28862.793 2.08162 0 3.07286-1.8834 3.66766-3.66764 3.86586.29737.3965.59474.8921.59474 1.586v2.1808c0 .1982.0991.4956.5948.3965 3.172-1.0904 5.4518-4.0642 5.4518-7.53353-.0991-4.3615-3.6676-7.930002-8.02909-7.930002z" fill="currentColor" fill-rule="evenodd"></path></g><defs><clipPath id="githublogo"><path d="M0 0h15.86v15.86H0z" fill="transparent" transform="translate(.253906 .0493164)"></path></clipPath></defs></svg></a>
+                        <a href="#"><svg aria-label="twitter" fill="currentColor" height="16" viewBox="0 0 18 15"><path d="M18 1.684l-1.687 1.684v.28c0 .307-.05.602-.123.886-.04 2.316-.777 5.387-3.816 7.81C6.404 17.115 0 12.907 0 12.907c5.063 0 5.063-1.684 5.063-1.684-1.126 0-3.376-2.243-3.376-2.243.563.56 1.689 0 1.689 0C.56 7.295.56 5.61.56 5.61c.563.561 1.689 0 1.689 0C-.563 3.368 1.124.561 1.124.561 1.687 3.368 9 4.49 9 4.49l.093-.046A6.637 6.637 0 0 1 9 3.368C9 1.353 10.636 0 12.656 0c1.112 0 2.094.506 2.765 1.286l.329-.163L17.437 0l-1.122 2.245L18 1.684z" fill-rule="nonzero"></path></svg></a>
+                    </div>
+                </div>
+                <div class="footer_darkmode">
+                    <div class="darkmode_btn">
+                        <a href="#">
+                            <svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color: currentcolor; width: 16px; height: 16px;"><circle cx="12" cy="12" r="5"></circle><path d="M12 1v2"></path><path d="M12 21v2"></path><path d="M4.22 4.22l1.42 1.42"></path><path d="M18.36 18.36l1.42 1.42"></path><path d="M1 12h2"></path><path d="M21 12h2"></path><path d="M4.22 19.78l1.42-1.42"></path><path d="M18.36 5.64l1.42-1.42"></path></svg>
+                        </a>
+                        <a href="#">
+                            <svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color: currentcolor; width: 16px; height: 16px;"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg>
+                        </a>
+                        <a href="#">
+                            <svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color: currentcolor; width: 16px; height: 16px;"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
